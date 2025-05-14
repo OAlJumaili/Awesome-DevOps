@@ -1,83 +1,102 @@
 # Awesome-DevOps
-This is a Repository Where I Document All The Useful and Cool DevOps Oriented Tools and Resources That I Came Across and Utilize in my Work. This Repo Works As Part RoadMap, Part Software Discorvery Resource.  
 
-I'll Be Updating This Repository As I Come Across More Tools And Expand my Repertoire of Knowledge.
+This is a repository where I document all the useful and cool DevOps-oriented tools and resources that I come across and utilize in my work. This repo works as part roadmap, part software discovery resource.  
 
-# First Off, What is The Are The Conceptual Goals Of DevOps?
+I'll be updating this repository as I come across more tools and expand my repertoire of knowledge.
 
-- #### Simply Put, As DevOps Engineer, Your Aim is To Ease The Lives Of Everyone At The Organization You Work In / For.
 
-- #### You Do So By Automating Parts Of The Development, Quality Assurance And Production Deployment Processes, As Well As Implementing Software And Technologies That Offer Quality of Life Improvements to The Members of Your Organization.
+# First off, what are the conceptual goals of DevOps?
 
-**Now, Let's Get Into The Basic Knowledge You'll Need To Do So.**
+- #### Simply put, as a DevOps engineer, your aim is to ease the lives of everyone at the organization you work in/for.
+
+- #### You do so by automating parts of the development, quality assurance, and production deployment processes, as well as implementing software and technologies that offer quality-of-life improvements to the members of your organization.
+
+**Now, let's get into the basic knowledge you'll need to do so.**
+
+
 
 # 🛠️ Linux
 
-- To Start off, If You Spend Any Amount of Time in DevOps Circles, You'll Quickly Hear The Same Sentiment Over and Over: The First Step In DevOps is Linux, Followed By Scripting, And That Couldn't be Any Closer To The Truth.
+- To start off, if you spend any amount of time in DevOps circles, you'll quickly hear the same sentiment over and over: the first step in DevOps is Linux, followed by scripting, and that couldn't be any closer to the truth.
 
-- No Matter How Well You think you know Docker or Terraform or Any Other Buzzword-ish Software, If You Want to Succeed in the DevOps Field, Linux And Scripting (Bash, Python, etc.) Are Gonna The Base Of your Knowledge Pyramid, So Let's Get Started:
+- No matter how well you think you know Docker or Terraform or any other buzzword-ish software, if you want to succeed in the DevOps field, Linux and scripting (Bash, Python, etc.) are going to be the base of your knowledge pyramid, so let's get started:
 
-### First Things First: Download & Install A Distro.
-people Will Get Dogmatic Over Which Distro Is Supreme, But Here's My Two Cents:
+### First things first: Download & install a distro.
 
-- **Ubuntu**: A Great First Distro, Beginner Friendly. My Personal Reccommendation For First Timers, But Not a Very Optimized Distro For Production Level Servers.
+People will get dogmatic over which distro is supreme, but here's my two cents:
 
-- **Alpine**: THE Distro For Deploying Production Apps, A Very Lightweight OS With A Small Surface of Attack. Most Docker Images Are Built on Some Variation of an Alpine Base Image, and for Good Reasons. The Only Scenario That I Would Avoid Alpine Is For Installing And Running Docker Itself, As It Can Run Into Some Issues With RC / Process Limits.
+- **Ubuntu**: A great first distro, beginner friendly. My personal recommendation for first timers, but not a very optimized distro for production-level servers.
 
-- **ZenOS**: My Go-To Distro For Personal Use When I Want a Linux Distro For Personal Use.
+- **Alpine**: *The* distro for deploying production apps, a very lightweight OS with a small surface of attack. Most Docker images are built on some variation of an Alpine base image, and for good reasons. The only scenario that I would avoid Alpine is for installing and running Docker itself, as it can run into some issues with RC/process limits.
 
-There Are Countless Distros Based On Countless Kernels, Be it Arch, Fedorea, Gnome etc. These are simply My Personal Suggestions.
+- **ZenOS**: My go-to distro for personal use when I want a Linux distro for personal use.
 
-### Getting Started:
+There are countless distros based on countless kernels, be it Arch, Fedora, GNOME etc. These are simply my personal suggestions.
 
-I Have to Shout out LearnLinuxTV and His Incredible Linux Guides. If you Don't Feel like Reading My Guides, I Urge You To Check Him Out, This Isn't The Last Time I'll Mention Him.
+### Getting started:
 
-To Get Started On Your Journey Through Linux, Take a look at my Personal Resources For A Quick Tour Through The Commands You'll Be Using 90% Of The Time:
+I have to shout out LearnLinuxTV and his incredible Linux guides. If you don't feel like reading my guides, I urge you to check him out, this isn't the last time I'll mention him.
 
-- #### Basic Navigation and File Manipulation: Learn How to Navigate Folders, Move, Copy and Edit Them, As Well As Package Managers And Other Basic Facets of Linux.
+To get started on your journey through Linux, take a look at my personal resources for a quick tour through the commands you'll be using 90% of the time:
 
-- #### Networking: Learn The Basics of Networking As Well As Commands To Test Pings, Ports and Other Functionds, As Well As managing Your Local Firewall.
+- #### Basic navigation and file manipulation: Learn how to navigate folders, move, copy and edit them, as well as package managers and other basic facets of Linux.
 
-- #### User Management: Learn To Create and Edit Users, as well as Managing Permissions.
+- #### Networking: Learn the basics of networking as well as commands to test pings, ports and other functions, as well as managing your local firewall.
 
-- #### Intermediate Tools: Learn Some More Tools That Can Be Handy When You need Them.
+- #### User management: Learn to create and edit users, as well as managing permissions.
 
-- #### Advanced Concepts: Learn Some Advanced (If Disparate) Conecepts, Such As Environment Variables, Services etc.
+- #### Intermediate tools: Learn some more tools that can be handy when you need them.
+
+- #### Advanced concepts: Learn some advanced (if disparate) concepts, such as environment variables, services etc.
+
+---
 
 # 👷 Proxmox
 
-- Proxmox Is, In My Opinion, The Final Frontier For Linux, And Something That Is Not Just Worth Learning, But Something That Will Rocket Your Linux (And Arguably, General IT) Knowledge Into The Atmosphere, For One Simple Reason: It Is The Ultimate Sandbox, And We'll Get Into That In The Guides.
+- Proxmox is, in my opinion, the final frontier for Linux, and something that is not just worth learning, but something that will rocket your Linux (and arguably, general IT) knowledge into the atmosphere, for one simple reason: it is the ultimate sandbox, and we'll get into that in the guides.
 
-Here I Have To Mention LearnLinuxTV Once Again and His Proxmox Guides, Please Check Them Out If You Don't Feel Like Looking Through My Written Guides.
+Here I have to mention LearnLinuxTV once again and his Proxmox guides, please check them out if you don't feel like looking through my written guides.
 
-### First, If you Are Able, Get an old PC or Laptop and Install Proxmox.
+### First, if you are able, get an old PC or laptop and install Proxmox.
 
-#### Here Are My Guides For Proxmox:
+#### Here are my guides for Proxmox:
 
-- #### Proxmox Basics: Learn The Basics Of Virtualization And Containerization, And Setup Your First CTs and VMs.
+- #### Proxmox basics: Learn the basics of virtualization and containerization, and set up your first CTs and VMs.
 
-- #### Proxmox Networking: Learn About Networking In Your Local Proxmox Machine, And Setup VLANs For Your Containers and VMs.
+- #### Proxmox networking: Learn about networking in your local Proxmox machine, and set up VLANs for your containers and VMs.
 
-- #### Clusters: Learn About Proxmox Clusters And Quorum.
+- #### Clusters: Learn about Proxmox clusters and quorum.
 
-- #### Advanced Concepts: Learn About Some Advanced Concepts Such As GPU Passthrough, Mount Point Binding And User Mapping.
+- #### Advanced concepts: Learn about some advanced concepts such as GPU passthrough, mount point binding and user mapping.
+
+---
 
 # 📝 Scripting
 
-- The Reason I Mentioned Linux And Proxmox First, Is That Your Bash Scripts Are Only As Good As Your Linux Knowledge, And Proxmox Provides The Sandbox You Need To Test Those Scripts In A Safe, Isolated Environment.
+- The reason I mentioned Linux and Proxmox first is that your Bash scripts are only as good as your Linux knowledge, and Proxmox provides the sandbox you need to test those scripts in a safe, isolated environment.
 
-- Here I Will Direct You To Some Bash Scripting Guides, Where you can Continue Polishing your Scripting Skills.
+- Here I will direct you to some Bash scripting guides, where you can continue polishing your scripting skills.
 
-- Honorable Mention To Python As Some Poeple Use it As a Scripting Language, But We'll Talk About Python In The Next Section.
+- Honorable mention to Python, as some people use it as a scripting language, but we'll talk about Python in the next section.
 
-# 👾 Programming
+---
 
-- This My Be A point of Pain For Some, But Half of being A Good DevOps Engineer Is Being a Good Developer, Which means you Can't Escape The Requirement Of Learning Some Programming Languages, So Here Are My Personal Recommendations:
+# 💾 Programming
 
-- #### Python: The #1 Most Used Language In The World, And Arguably The Most Flexible Language as well. It Has Almost Reached the Point of Being Downright Mandatory in The IT Field.
+- This may be a point of pain for some, but half of being a good DevOps engineer is being a good developer, which means you can't escape the requirement of learning some programming languages. So here are my personal recommendations:
 
-- #### Go: A Very Fast Language, And One That is In High Demand in 2025. Highly Recommended.
+- #### Python: The #1 most used language in the world, and arguably the most flexible language as well. It has almost reached the point of being downright mandatory in the IT field.
 
-- #### Rust: Much Like Go, Rust Is Also A Blazing Fast Language That Is In High Demand. I Recommend Learning Both, But Learning One Can be Okay Too.
+- #### Go: A very fast language, and one that is in high demand in 2025. Highly recommended.
 
-**The Previous Sections Form The Basis Of DevOps, Now We Delve Into The Various Facets Of DevOps, The Different Aspects of Work You can Automate and The Ways you can Ease The Lives of You and Your Co-Wrokers, And Some Cool Software That Will Help You Along The Way.**
+- #### Rust: Much like Go, Rust is also a blazing fast language that is in high demand. I recommend learning both, but learning one can be okay too.
+
+**The previous sections form the basis of DevOps. Now we delve into the various facets of DevOps, the different aspects of work you can automate, and the ways you can ease the lives of you and your co-workers, along with some cool software that will help you along the way.**
+
+---
+
+# Source Control
+
+- We'll dedicate the next few sections to the "Dev" part of DevOps, where we'll go through what you can implement to streamline the development and QA testing cycle, and for that we need to discuss a fundamental concept: source control.
+
+- Feel free to check out my source control guide to discuss the fundamental concepts, branch protection, and the feature-based branch mentality.
